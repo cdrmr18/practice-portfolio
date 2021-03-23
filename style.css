@@ -10,7 +10,6 @@ body {
 }
 
 h1,
-h2,
 h3 {
   text-align: center;
   margin: 0;
@@ -21,6 +20,7 @@ h1 {
 }
 
 h2 {
+  text-align: left;
   font-size: 48px;
 }
 
@@ -33,9 +33,6 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: left;
-}
-.homepage h2 {
-  text-align: left !important;
 }
 .navigation-links {
   display: flex;
@@ -88,4 +85,13 @@ p {
 }
 .about img {
   box-shadow: var(--box-shadow);
+}
+/* ------------Media Queries------------ */
+@media (max-width: 573px) {
+  .homepage p {
+    text-align: center;
+  }
+  .homepage h2 {
+    text-align: center;
+  }
 }
