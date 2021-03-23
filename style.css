@@ -27,6 +27,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: left;
+  text-align: center;
 }
 .navigation-links {
   display: flex;
@@ -80,12 +81,17 @@ p {
 .about img {
   box-shadow: var(--box-shadow);
 }
+#contact h2 {
+  font-size: 48px;
+}
 /* ------------Media Queries------------ */
 @media (max-width: 573px) {
-  .homepage p {
-    text-align: center;
-  }
   .homepage h2 {
     text-align: center;
+  }
+}
+@media (min-width: 576px) {
+  .header {
+    font-size: 96px;
   }
 }
